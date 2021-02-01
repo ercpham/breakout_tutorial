@@ -201,10 +201,6 @@ function movePaddle() {
     if (paddleX < 0) {
       paddleX = 0;
     }
-  } else if (paddleDX > 0) {
-    smoothStopRight();
-  } else if (paddleDX < 0) {
-    smoothStopLeft();
   }
 }
 
